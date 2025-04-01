@@ -4,6 +4,7 @@ using MvcOAuthEmpleados.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 /***********************************************************************************************************/
+
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddTransient<ServiceEmpleados>();
 builder.Services.AddDistributedMemoryCache();
